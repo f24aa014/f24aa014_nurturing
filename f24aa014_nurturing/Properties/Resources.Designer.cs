@@ -113,6 +113,16 @@ namespace f24aa014_nurturing.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
+        internal static System.Drawing.Bitmap room_yuka_tatami {
+            get {
+                object obj = ResourceManager.GetObject("room_yuka_tatami", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
         internal static System.Drawing.Bitmap yellow_bird {
             get {
                 object obj = ResourceManager.GetObject("yellow_bird", resourceCulture);
