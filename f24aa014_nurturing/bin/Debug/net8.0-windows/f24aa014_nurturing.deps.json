@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "f24aa014_nurturing/1.0.0": {
+        "runtime": {
+          "f24aa014_nurturing.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "f24aa014_nurturing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
