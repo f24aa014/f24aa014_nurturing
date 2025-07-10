@@ -40,7 +40,7 @@
             groupBox3 = new GroupBox();
             expLavel = new Label();
             progressBarExp = new ProgressBar();
-            button1 = new Button();
+            presentButton = new Button();
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
             groupBox4 = new GroupBox();
@@ -175,16 +175,16 @@
             progressBarExp.Size = new Size(200, 29);
             progressBarExp.TabIndex = 1;
             // 
-            // button1
+            // presentButton
             // 
-            button1.BackColor = Color.Transparent;
-            button1.Location = new Point(139, 26);
-            button1.Name = "button1";
-            button1.Size = new Size(86, 53);
-            button1.TabIndex = 3;
-            button1.Text = "餌をあげる";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            presentButton.BackColor = Color.Transparent;
+            presentButton.Location = new Point(139, 26);
+            presentButton.Name = "presentButton";
+            presentButton.Size = new Size(86, 53);
+            presentButton.TabIndex = 3;
+            presentButton.Text = "餌をあげる";
+            presentButton.UseVisualStyleBackColor = false;
+            presentButton.Click += presentButton_Click;
             // 
             // panel1
             // 
@@ -212,7 +212,7 @@
             groupBox4.BackColor = SystemColors.ControlLightLight;
             groupBox4.Controls.Add(groupBox3);
             groupBox4.Controls.Add(comboBox1);
-            groupBox4.Controls.Add(button1);
+            groupBox4.Controls.Add(presentButton);
             groupBox4.Location = new Point(12, 409);
             groupBox4.Name = "groupBox4";
             groupBox4.Size = new Size(246, 197);
@@ -281,7 +281,7 @@
         private Label Title;
         private GroupBox groupBox1;
         private Label NameLabel;
-        private Button button1;
+        private Button presentButton;
         private Label DEFLabel;
         private Label ATKLabel;
         private Label HPLabel;

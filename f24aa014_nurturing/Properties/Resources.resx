@@ -124,11 +124,23 @@
   <data name="yellow_bird" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\yellow_bird.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="corn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\corn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="blue_bird" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blue_bird.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pink_bird" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pink_bird.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="room_yuka_tatami" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room_yuka_tatami.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="purple_bird" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\purple_bird.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,7 +148,13 @@
   <data name="green_bird" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\green_bird.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="room_yuka_tatami" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\room_yuka_tatami.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fish_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fish_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="corn_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\corn_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="apple_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\apple_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
