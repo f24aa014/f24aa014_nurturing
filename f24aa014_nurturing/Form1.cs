@@ -15,7 +15,7 @@ namespace f24aa014_nurturing
         }
 
         // 選択した鳥に応じた描画を行う関数
-            private void SetBirdStatus(string name, int hpvalue, int atkvalue, int defvalue, string description,PictureBox activeBox, PictureBox inactiveBox1, PictureBox inactiveBox2)
+        private void SetBirdStatus(string name, int hpvalue, int atkvalue, int defvalue, string description, PictureBox activeBox, PictureBox inactiveBox1, PictureBox inactiveBox2)
         {
             hp = hpvalue;
             atk = atkvalue;
@@ -27,27 +27,27 @@ namespace f24aa014_nurturing
 
             StatusLabel.Text = $"体力: {hp}\n攻撃力: {atk}\n防御力: {def}\n＜説明＞\n{description}";
         }
-        
+
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton1.Checked)
             {
-                SetBirdStatus(NameBox.Text, 80, 80, 80,
+                SetBirdStatus(NameBox.Text, 60, 30, 20,
                     "青色の鳥。全てのステータスがバランスよく整った鳥。\nどんな状況にも対応できる安定型で、初心者にも扱いやすい。\n育て方次第で攻守ともに活躍できる万能型。",
                     pictureBox1, pictureBox2, pictureBox3);
                 Program.Birdimage = pictureBox1.Image;
             }
             else if (radioButton2.Checked)
             {
-                SetBirdStatus(NameBox.Text, 60, 110, 70,
+                SetBirdStatus(NameBox.Text, 45, 45, 15,
                     "黄色の鳥。スピードと攻撃力に特化した攻撃型の鳥。\n高い攻撃力で素早く敵を倒すスタイルが得意。\n打たれ弱いため、先手必勝の戦術が求められる。",
                     pictureBox2, pictureBox1, pictureBox3);
                 Program.Birdimage = pictureBox2.Image;
             }
             else if (radioButton3.Checked)
             {
-                SetBirdStatus(NameBox.Text, 100, 50, 90,
+                SetBirdStatus(NameBox.Text, 80, 20, 30,
                     "桃色の鳥。高い体力と防御力を誇る守備特化の鳥。\n持久戦に強く、パーティの盾役として大活躍。\nじっくり育てて安定した守りを築こう。",
                     pictureBox3, pictureBox1, pictureBox2);
                 Program.Birdimage = pictureBox3.Image;
@@ -68,8 +68,8 @@ namespace f24aa014_nurturing
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string name =NameBox.Text;
-            if(NameBox.Text == "")
+            string name = NameBox.Text;
+            if (NameBox.Text == "")
             {
                 MessageBox.Show("ニックネームを入力してください。");
             }
@@ -90,5 +90,7 @@ namespace f24aa014_nurturing
                 }
             }
         }
+
+
     }
 }

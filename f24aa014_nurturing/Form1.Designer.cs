@@ -74,6 +74,7 @@
             // 
             StatusLabel.BackColor = SystemColors.ControlLightLight;
             StatusLabel.BorderStyle = BorderStyle.Fixed3D;
+            StatusLabel.Font = new Font("Yu Gothic UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 128);
             StatusLabel.ForeColor = SystemColors.ActiveCaptionText;
             StatusLabel.Location = new Point(12, 457);
             StatusLabel.Name = "StatusLabel";
@@ -86,7 +87,7 @@
             statusTitle.AutoSize = true;
             statusTitle.Font = new Font("Yu Gothic UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 128);
             statusTitle.ForeColor = SystemColors.ButtonHighlight;
-            statusTitle.Location = new Point(12, 425);
+            statusTitle.Location = new Point(12, 429);
             statusTitle.Name = "statusTitle";
             statusTitle.Size = new Size(180, 28);
             statusTitle.TabIndex = 4;
@@ -131,9 +132,10 @@
             // radioButton3
             // 
             radioButton3.AutoSize = true;
+            radioButton3.Font = new Font("Yu Gothic UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 128);
             radioButton3.Location = new Point(612, 246);
             radioButton3.Name = "radioButton3";
-            radioButton3.Size = new Size(87, 24);
+            radioButton3.Size = new Size(102, 29);
             radioButton3.TabIndex = 3;
             radioButton3.TabStop = true;
             radioButton3.Text = "桃色の鳥";
@@ -143,9 +145,10 @@
             // radioButton2
             // 
             radioButton2.AutoSize = true;
+            radioButton2.Font = new Font("Yu Gothic UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 128);
             radioButton2.Location = new Point(367, 246);
             radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(87, 24);
+            radioButton2.Size = new Size(102, 29);
             radioButton2.TabIndex = 2;
             radioButton2.TabStop = true;
             radioButton2.Text = "黄色の鳥";
@@ -155,9 +158,10 @@
             // radioButton1
             // 
             radioButton1.AutoSize = true;
+            radioButton1.Font = new Font("Yu Gothic UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 128);
             radioButton1.Location = new Point(113, 246);
             radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(87, 24);
+            radioButton1.Size = new Size(102, 29);
             radioButton1.TabIndex = 1;
             radioButton1.TabStop = true;
             radioButton1.Text = "青色の鳥";
@@ -176,7 +180,7 @@
             // 
             // button1
             // 
-            button1.Font = new Font("Yu Gothic UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 128);
+            button1.Font = new Font("Yu Gothic UI", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 128);
             button1.Location = new Point(624, 457);
             button1.Name = "button1";
             button1.Size = new Size(217, 163);
@@ -187,9 +191,10 @@
             // 
             // NameBox
             // 
+            NameBox.Font = new Font("Yu Gothic UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 128);
             NameBox.Location = new Point(12, 79);
             NameBox.Name = "NameBox";
-            NameBox.Size = new Size(829, 27);
+            NameBox.Size = new Size(829, 34);
             NameBox.TabIndex = 11;
             NameBox.TextChanged += NameBox_TextChanged;
             // 

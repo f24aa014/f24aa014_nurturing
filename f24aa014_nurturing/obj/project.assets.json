@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tori1\\source\\repos\\f24aa014_nurturing\\f24aa014_nurturing.csproj",
+      "projectUniqueName": "C:\\Users\\tori1\\Source\\Repos\\f24aa014_nurturing_main\\f24aa014_nurturing\\f24aa014_nurturing.csproj",
       "projectName": "f24aa014_nurturing",
-      "projectPath": "C:\\Users\\tori1\\source\\repos\\f24aa014_nurturing\\f24aa014_nurturing.csproj",
+      "projectPath": "C:\\Users\\tori1\\Source\\Repos\\f24aa014_nurturing_main\\f24aa014_nurturing\\f24aa014_nurturing.csproj",
       "packagesPath": "C:\\Users\\tori1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tori1\\source\\repos\\f24aa014_nurturing\\obj\\",
+      "outputPath": "C:\\Users\\tori1\\Source\\Repos\\f24aa014_nurturing_main\\f24aa014_nurturing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
